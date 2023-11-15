@@ -1,4 +1,4 @@
-# Amazon-Review-Sentiment
+# AWS Business Card Reader
 
 Demonstrated substantial efforts in enhancing sentiment analysis for Amazon reviews by implementing three methods and training machine learning models. Evidenced improvements in model accuracy post-introduction of sentiment-adjusted ratings, optimizing customer sentiment interpretation in both general and sampled datasets.
 

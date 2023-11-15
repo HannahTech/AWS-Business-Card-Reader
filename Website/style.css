@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #007bff;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
+  display: flex;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.file-input {
+  position: absolute;
+  left: -9999px;
+}
+
+.file-label {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: hidden;
+  background-color: buttonface;
+  color: buttontext;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+.file-label:after {
+  content: "Choose Card";
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.container {
+  padding: 20px;
+  height: 20%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+#imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex: 1;
+  width: 40%;
+  margin-right: 10px;
+  height: 400px;
+}
+
+#tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex: 1;
+  height: 400px;
+}
+
+#imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#tableContainer table {
+  padding: auto;
+  height: auto;
+  font-size: 10px;
+}
+
+table {
+  background-color: #fff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  font-size: small;
+}
+
+tr:nth-child(even) {
+  background-color: #cdcdcd;
+}
+
+th {
+  background-color: #7bbbff;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #007bff;
+  font-weight: bolder;
+}
+
+.footer-left {
+  margin-right: auto;
+}
+
+#foundCardsContainer table {
+  width: 60%;
+  margin: auto;
+  height: auto;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+#foundCardsContainer table:last-child {
+  margin-bottom: 100px;
+}

@@ -1,8 +1,10 @@
-# AWS Business Card Reader
+# AWS-Business-Card-Reader
 
-Demonstrated substantial efforts in enhancing sentiment analysis for Amazon reviews by implementing three methods and training machine learning models. Evidenced improvements in model accuracy post-introduction of sentiment-adjusted ratings, optimizing customer sentiment interpretation in both general and sampled datasets.
+Users upload card images, AWS Rekognition extracts text, and AWS Comprehend categorizes it. The organized data is stored in DynamoDB, allowing users to query and edit business card information seamlessly.
 
-    - Text Processing and Sentiment Analysis: Using VADER Lexicon, TextBlob, and SentiWordNet.
-    - Machine Learning Models (Logistic Regression and Gradient Boosting)
-    - Sentiment-Adjusted Ratings: Label sentiment-adjusted ratings as Positive, Negative, or Neutral.
-    - Model Evaluation and Comparison
+    - Python, Boto3 (interact with AWS)
+    - Chalice (serverless framework for AWS Lambda)
+    - AWS services like Rekognition (image recognition)
+    - Comprehend (NLP)
+    - DynamoDB (database storage)
+

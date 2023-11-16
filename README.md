@@ -7,11 +7,11 @@ Users upload card images, AWS Rekognition extracts text, and AWS Comprehend cate
     - AWS services like Rekognition (image recognition)
     - Comprehend (NLP)
     - DynamoDB (database storage)
+    
+![image](https://github.com/HannahTech/AWS-Business-Card-Reader/assets/81828685/17449e08-70a6-472b-9cc4-d40347436a5a)
 
-![image](https://github.com/HannahTech/AWS-Business-Card-Reader/assets/81828685/09481641-c4a2-4e2f-8490-5b9e6f7779be)
-
-![image](https://github.com/HannahTech/AWS-Business-Card-Reader/assets/81828685/e7287b15-4c69-4f37-910d-a2d0b75bdc08)
+![image](https://github.com/HannahTech/AWS-Business-Card-Reader/assets/81828685/1d2361e9-fe5c-4bc6-a69e-972ee7bbc960)
 
 # Final Look
-![image](https://github.com/HannahTech/AWS-Business-Card-Reader/assets/81828685/078caea0-d254-44b0-a7f1-176e71bda26b)
+![image](https://github.com/HannahTech/AWS-Business-Card-Reader/assets/81828685/33d1f3f6-2123-4ad8-8dcb-af0687be90b7)
 
